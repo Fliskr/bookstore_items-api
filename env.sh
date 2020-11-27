@@ -1,0 +1,1 @@
+nodemon -w ../ -e .go --exec "go run src/main.go || exit 1" --signal SIGTERM
